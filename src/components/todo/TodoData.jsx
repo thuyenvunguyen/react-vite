@@ -6,7 +6,9 @@ const TodoData = (props) => {
                 return (
                     <div className="todo-item" key={item.id}>
                         <div>{item.name}</div>
-                        <div><button>Delete</button></div>
+                        <div>
+                            <button>Delete</button>
+                        </div>
 
                     </div>
                 )
